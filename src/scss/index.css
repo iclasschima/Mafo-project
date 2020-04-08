@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Ubuntu;
+  background: #e9ecef;
+  color: #232528;
+}
+
+#prevention .col-4 {
+  position: relative;
+}
+
+#prevention .col-4 svg {
+  font-size: 80px;
+  position: absolute;
+  left: 30%;
+}
+
+h4 > span {
+  font-size: 13px !important;
+  margin-left: 10px;
+}
+
+.jumbotron {
+  margin-bottom: 5rem !important;
+  border-radius: 0;
+  height: 40vh;
+  padding-top: 6rem;
+}
+
+ol li {
+  line-height: 2.5rem !important;
+  font-size: 18px;
+  position: relative;
+  margin-top: 5px !important;
+}
+
+ol li select {
+  position: absolute;
+  right: 10%;
+}
+
+#footer {
+  margin-top: 6rem;
+}
+
+#footer #firstChild a:hover {
+  cursor: none;
+  color: #f3f3f3;
+}
+
+#footer li a {
+  margin: 0px !important;
+}
+
+#marginTop {
+  margin-top: 15px;
+}
+
+.boards {
+  background-color: #f3f3f3;
+  border-radius: 0px;
+  border-top-right-radius: 20px;
+  height: 8rem;
+  width: 96% !important;
+}
+
+.boards .icon {
+  background-color: rgba(0, 10, 255, 0.34);
+  border-radius: 50%;
+  width: 100% !important;
+  height: 70%;
+  position: relative;
+}
+
+.boards .icon svg {
+  font-size: 30px;
+  left: 34%;
+  top: 30%;
+  position: absolute;
+  color: #000AFF;
+}
+
+.boards #icon2 {
+  background-color: rgba(109, 209, 124, 0.616);
+}
+
+.boards #icon2 svg {
+  color: #05FF2D;
+}
+
+.boards #icon3 {
+  background-color: rgba(230, 57, 57, 0.31);
+}
+
+.boards #icon3 svg {
+  color: #E63939;
+}
+
+.boards h4 {
+  font-weight: bolder;
+}
+
+nav a {
+  margin: 0 20px !important;
+  font-size: 16px;
+  text-decoration: none !important;
+  color: #f3f3f3;
+}
+
+nav a:hover {
+  color: #c4c4c4;
+}
+
+@media (max-width: 480px) {
+  nav ul li {
+    line-height: 2.5rem;
+  }
+  .jumbotron {
+    margin-bottom: 2rem !important;
+    padding-bottom: 13rem !important;
+  }
+  .jumbotron h3 {
+    font-size: 23px;
+  }
+  .jumbotron p {
+    font-size: 17px !important;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  #homeRight {
+    margin-top: 6rem;
+  }
+  #footer {
+    margin-top: 2rem;
+  }
+  #prevention .col-md-6 {
+    padding-right: 0 !important;
+  }
+  ol li select {
+    position: relative !important;
+    right: 0;
+    margin-left: 1rem;
+  }
+}
+/*# sourceMappingURL=index.css.map */
